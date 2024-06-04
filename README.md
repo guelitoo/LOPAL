@@ -68,6 +68,7 @@ São estruturas de dados que permitem armazenar múltiplos valores em uma única
 ## Matrízes
 
 São estruturas de dados bidmencionais que permitem armazenar  múltiplos valores em linhas e colunas.
+
 Exemplo:
 
      String[][] cl = new String[3][2];
