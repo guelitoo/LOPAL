@@ -68,3 +68,18 @@ São estruturas de dados que permitem armazenar múltiplos valores em uma única
 ## Matrízes
 
 São estruturas de dados bidmencionais que permitem armazenar  múltiplos valores em linhas e colunas.
+Exemplo:
+
+     String[][] cl = new String[3][2];
+     
+     cl[0][0] = "João"
+     cl[0][1] = "Rua das Flores, 123"
+     cl[1][0] = "Maria"
+     cl[1][1] = "Avenida doa Anjos, 456" 
+     cl[2][0] = "Pedro"
+     cl[2][0] = "Prça da Liberdade, 789"
+     
+    for (int i = 0; i < 3; i++){
+    System.out.println("Nome: " + cl[i][0]);
+    System.out.println("Endereço: ")
+    }
