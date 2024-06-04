@@ -37,6 +37,8 @@ São estruturas utilizadas para tomar decisões com base em uma condição.
 São estruturas utilizadas para repetir um bloco de código vátrias vezes.
 
 - Contador (for): É utilizado quando se sabe a quantidade exata de vezes que bloco de código deve ser repetido.
+![image](https://github.com/Miguel281207/LOPAL/assets/159180695/449b4ec4-015f-4c39-899a-e479103cbe28)
+
 - Contador (while): É utilizado quando a repetição de um bloco de código deve continuar enquanto uma condição for verdadeira.
 ## Vetores
 
