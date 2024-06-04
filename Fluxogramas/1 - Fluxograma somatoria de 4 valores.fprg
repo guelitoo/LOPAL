@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 01:32:03 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjI3OzIwMjQtMDItMDY7IjAxOjEzOjM0ICI7MjI0Nw=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjI3OzIwMjQtMDItMDY7IjAxOjMyOjAzICI7MTsyMzUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1" type="Real" array="False" size=""/>
+            <declare name="n2" type="Real" array="False" size=""/>
+            <declare name="n3" type="Real" array="False" size=""/>
+            <declare name="n4" type="Real" array="False" size=""/>
+            <declare name="resultado" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro valor&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite o segundo valor&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Digite o terceiro valor&quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Digite o quarto valor&quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="resultado" expression="n1+n2+n3+n4"/>
+            <output expression="&quot;O resultado da soma dos quatro valores &#233;: &quot; &amp; resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

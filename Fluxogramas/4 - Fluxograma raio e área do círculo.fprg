@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 12:16:16 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjI3OzIwMjQtMDItMDY7IjEwOjQzOjEzICI7MjI0Nw=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjI3OzIwMjQtMDItMDY7IjEyOjE2OjE2ICI7MTsyMzYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raio" type="Real" array="False" size=""/>
+            <declare name="&#225;rea" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero &quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="&#225;rea" expression="3.14*raio*raio"/>
+            <output expression="&quot;A &#225;rea do circulo &#233; de: &quot; &amp; &#225;rea" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

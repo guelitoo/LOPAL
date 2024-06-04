@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-15 12:36:15 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjI5OzIwMjQtMDItMTU7IjExOjQ4OjQwICI7MjI1NQ=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjI5OzIwMjQtMDItMTU7IjEyOjM2OjE1ICI7MTsyMzYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="produto" type="String" array="False" size=""/>
+            <declare name="pre&#231;o" type="Integer" array="False" size=""/>
+            <declare name="estoque" type="Real" array="False" size=""/>
+            <declare name="vendidas" type="Real" array="False" size=""/>
+            <declare name="subtracao" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ol&#225;, seja bem vindo. Me informe qual o produto que voc&#234; deseja cadastrar?&quot;" newline="True"/>
+            <input variable="produto"/>
+            <output expression="&quot;Qual o pre&#231;o dele?&quot;" newline="True"/>
+            <input variable="pre&#231;o"/>
+            <output expression="&quot;Paraben&#233;s, O produto &quot; &amp; produto &amp; &quot; foi cadastrado&quot;" newline="True"/>
+            <output expression="&quot;Produto: &quot; &amp; produto &amp; &quot;, custa &quot;  &amp; pre&#231;o &amp; &quot; reais&quot;" newline="True"/>
+            <output expression="&quot;Quantas tem no estoque?&quot;" newline="True"/>
+            <input variable="estoque"/>
+            <output expression="&quot;Quantas foram vendidas?&quot;" newline="True"/>
+            <input variable="vendidas"/>
+            <assign variable="subtracao" expression="estoque - vendidas"/>
+            <output expression="&quot; Ainda tem no estoque:&quot; &amp; subtracao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
