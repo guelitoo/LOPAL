@@ -1,8 +1,4 @@
 # LOPAL
-
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
-
-
 ## Variáveis
 
 São espaços de memória utilizados para armazenar valores que podem ser alterados durante a execução do programa.
