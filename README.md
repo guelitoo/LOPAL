@@ -47,6 +47,11 @@ São estruturas utilizadas para repetir um bloco de código vátrias vezes.
 
 - Contador (for): É utilizado quando se sabe a quantidade exata de vezes que bloco de código deve ser repetido.
 
+        for (i = 0; i < 8; i++) {       
+            System.out.println("Qual o valor do índice " + i + "?");
+            vetor[i] = scanner.nextInt();
+        }
+
 - Contador (while): É utilizado quando a repetição de um bloco de código deve continuar enquanto uma condição for verdadeira.
 
         int contador = 0;
