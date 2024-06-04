@@ -2,9 +2,18 @@
 ## Variáveis
 
 São espaços de memória utilizados para armazenar valores que podem ser alterados durante a execução do programa.
+
+Exemplo:
+
+    int idade = 0;
+
 ## Constantes
 
 São valores fixos que não podem ser alterados durante a execução do programa.
+
+Exemplo:
+
+    int idade = 0;
 ## Operadores
 
 São símbolos utilizados para realizar operações matemática, comparações e outras manipulações de dados.
@@ -37,9 +46,17 @@ São estruturas utilizadas para tomar decisões com base em uma condição.
 São estruturas utilizadas para repetir um bloco de código vátrias vezes.
 
 - Contador (for): É utilizado quando se sabe a quantidade exata de vezes que bloco de código deve ser repetido.
-![image](https://github.com/Miguel281207/LOPAL/assets/159180695/449b4ec4-015f-4c39-899a-e479103cbe28)
 
 - Contador (while): É utilizado quando a repetição de um bloco de código deve continuar enquanto uma condição for verdadeira.
+
+        int contador = 0;
+        
+            while (contador < 50) {
+    
+        System.out.println("Repetição nr: " + contador);
+        contador++;
+        }
+
 ## Vetores
 
 São estruturas de dados que permitem armazenar múltiplos valores em uma única variável.
