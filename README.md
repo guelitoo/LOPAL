@@ -25,13 +25,9 @@ São símbolos utilizados para realizar operações matemática, comparações e
 
 São utilizados para realizar operações matemáticas, como:
 
-    Soma:            +
+![image](https://github.com/Miguel281207/LOPAL/assets/159180695/65e4128b-7419-4966-9fc6-eade050f1d81)
 
-    Subtração:       -
 
-    Multiplicação:   *
-
-    Divisão:         /
 ## Lógicos
 
 São utilizados para realizar operações lógicas, como AND, OR e NOT.
