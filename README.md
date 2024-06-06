@@ -1,4 +1,5 @@
-# LOPAL
+# Lógica de Programação e Algorítmos
+
 ## Variáveis
 
 São espaços de memória utilizados para armazenar valores que podem ser alterados durante a execução do programa.
