@@ -20,7 +20,7 @@ Exemplo:
 São símbolos utilizados para realizar operações matemática, comparações e outras manipulações de dados.
 - Atribuição
 
-É o processo de armazenar um valor em uma variável.
+É o processo de armazenar um valor em uma variável, que é designado pelo símbolo de =
 - Aritméticos
 
 São utilizados para realizar operações matemáticas, como:
