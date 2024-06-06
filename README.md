@@ -38,7 +38,25 @@ São utilizados para realizar operações lógicas, como AND, OR e NOT.
 
 São estruturas utilizadas para tomar decisões com base em uma condição.
 
-- Condicionais Simples: São estruturas que executam um bloco de código se uma condição for verdadeira 
+- Condicionais Simples: São estruturas que executam um bloco de código se uma condição for verdadeira
+
+![image](https://github.com/Miguel281207/LOPAL/assets/159180695/1124ccf6-8780-453f-b2b9-411b0e63f4dd)
+
+    // CaixaEletronico.java
+    public class CaixaEletronico {
+        public static void main(String[] args) {
+
+        double saldo = 25.0;
+        double valorSolicitado = 17.0;
+
+        if(valorSolicitado < saldo)
+            saldo = saldo - valorSolicitado;
+
+            System.out.println(saldo);
+
+        }
+    }
+ 
 - Condicionais Compostas: São estruturasque executam diferentes blocos de código dependendo de diferentes condições.
 - Condicionais Encadeadas: São estruturas que executam diferentes blocos de código de variáveis condições encadeadas.
 ## Laços de Repetição
