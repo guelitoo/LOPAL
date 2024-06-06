@@ -31,6 +31,9 @@ São utilizados para realizar operações matemáticas, como:
 ## Lógicos
 
 São utilizados para realizar operações lógicas, como AND, OR e NOT.
+
+![image](https://github.com/Miguel281207/LOPAL/assets/159180695/bb355666-95e2-403c-a4b2-ea8ee3b71954)
+
 ## Condicionais
 
 São estruturas utilizadas para tomar decisões com base em uma condição.
