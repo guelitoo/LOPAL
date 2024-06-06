@@ -18,17 +18,17 @@ Exemplo:
 ## Operadores
 
 São símbolos utilizados para realizar operações matemática, comparações e outras manipulações de dados.
-## Atribuição
+- Atribuição
 
 É o processo de armazenar um valor em uma variável.
-## Aritméticos
+- Aritméticos
 
 São utilizados para realizar operações matemáticas, como:
 
 ![image](https://github.com/Miguel281207/LOPAL/assets/159180695/65e4128b-7419-4966-9fc6-eade050f1d81)
 
 
-## Lógicos
+- Lógicos
 
 São utilizados para realizar operações lógicas, como AND, OR e NOT.
 
