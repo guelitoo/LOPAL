@@ -56,9 +56,6 @@ São estruturas utilizadas para tomar decisões com base em uma condição.
 
         }
     }
-Clipboard
-
-![image](https://github.com/Miguel281207/LOPAL/assets/159180695/c69c4f90-cbad-4d01-9ffd-8a69fb7993ea)
  
 - Condicionais Compostas: Algumas vezes, o nosso programa deverá seguir mais de uma jornada de execução, condionado a uma regra de negócio, este cenário é demoninado Estrutura Condicional Composta. Vejamos o exemplo abaixo:
 
@@ -98,7 +95,7 @@ Clipboard
         }
     }
 
-
+#Laços de Repetição
 São estruturas utilizadas para repetir um bloco de código vátrias vezes.
 
 - Contador (for): É utilizado quando se sabe a quantidade exata de vezes que bloco de código deve ser repetido.
