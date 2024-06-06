@@ -98,11 +98,15 @@ São estruturas utilizadas para repetir um bloco de código vátrias vezes.
 
 A estrutura de sintaxe do controle de repetição for é exibida abaixo:
 
-	//estrutura do controle de fluxo for
-	for (bloco de inicialização; expressão booleana de validação; bloco de atualização)
-	{
-     		// comando que será executado até que a 
-     		// expressão de validação torne-se falsa 
+	// ExemploFor.java
+	public class ExemploFor {
+	public static void main(String[] args) {
+		String alunos[] = { "FELIPE", "JONAS", "JULIA", "MARCOS" };
+
+		for (int x=0; x<alunos.length; x++) {
+			System.out.println("O aluno no indice x=" + x + " é " + alunos[x]);
+			}
+		}
 	}
 
 - Contador (while): O laço (while), (na tradução literal para a língua portuguesa “enquanto”) determina que, enquanto uma condição for válida, o bloco de código será executado. O laço while, testa a condição antes de executar o código, logo, caso a condição seja inválida no primeiro teste o bloco nem será executado.
