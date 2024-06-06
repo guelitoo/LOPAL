@@ -56,6 +56,8 @@ São estruturas utilizadas para tomar decisões com base em uma condição.
 
         }
     }
+
+![image](https://github.com/Miguel281207/LOPAL/assets/159180695/c69c4f90-cbad-4d01-9ffd-8a69fb7993ea)
  
 - Condicionais Compostas: São estruturasque executam diferentes blocos de código dependendo de diferentes condições.
 - Condicionais Encadeadas: São estruturas que executam diferentes blocos de código de variáveis condições encadeadas.
