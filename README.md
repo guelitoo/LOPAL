@@ -81,40 +81,59 @@ São estruturas utilizadas para tomar decisões com base em uma condição.
 
 ![image](https://github.com/Miguel281207/LOPAL/assets/159180695/f5df786e-996f-40ce-98aa-b1ee45471d80)
 
-    // ResultadoEscolar.java
-    public class ResultadoEscolar {
-         public static void main(String[] args) {
-         int nota = 6;
+	// ExemploFor.java
+	public class ExemploFor {
+		public static void main(String[] args) {
+			for(int carneirinhos = 1 ; carneirinhos <=20; carneirinhos ++) {
+				System.out.println(carneirinhos + " - Carneirinho(s)");
+			}
+		}
+	}
 
-	     if (nota >= 7)
-              System.out.println("Aprovado");
-         else if (nota >= 5 && nota < 7)
-		      System.out.println("Recuperação");
-	     else
-		      System.out.println("Reprovado");
-        }
-    }
-
-#Laços de Repetição
+## Laços de Repetição
 
 São estruturas utilizadas para repetir um bloco de código vátrias vezes.
 
-- Contador (for): É utilizado quando se sabe a quantidade exata de vezes que bloco de código deve ser repetido.
+- Contador (for): O comando (for), (na tradução literal para a língua portuguesa “para”) permite que uma variável contadora, seja testada e incrementada a cada iteração, sendo essas informações definidas na chamada do comando. O comando (for) recebe como entrada uma variável contadora, a condição para continuar a execução e o valor de incrementação.
 
-        for (i = 0; i < 8; i++) {       
-            System.out.println("Qual o valor do índice " + i + "?");
-            vetor[i] = scanner.nextInt();
-        }
+A estrutura de sintaxe do controle de repetição for é exibida abaixo:
 
-- Contador (while): É utilizado quando a repetição de um bloco de código deve continuar enquanto uma condição for verdadeira.
+	//estrutura do controle de fluxo for
+	for (bloco de inicialização; expressão booleana de validação; bloco de atualização)
+	{
+     		// comando que será executado até que a 
+     		// expressão de validação torne-se falsa 
+	}
 
-        int contador = 0;
+- Contador (while): O laço (while), (na tradução literal para a língua portuguesa “enquanto”) determina que, enquanto uma condição for válida, o bloco de código será executado. O laço while, testa a condição antes de executar o código, logo, caso a condição seja inválida no primeiro teste o bloco nem será executado.
+
+A estrutura de sintaxe, do controle de repetição while é exibida abaixo:
+
+	// ExemploWhile.java
+	import java.util.concurrent.ThreadLocalRandom;
+	public class ExemploWhile {
+	public static void main(String[] args) {
+ 		double mesada = 50.0;
+        		while(mesada>0) {
+	  			Double valorDoce = valorAleatorio();
+            			if(valorDoce > mesada)
+                			valorDoce = mesada;
+
+            			System.out.println("Doce do valor: " + valorDoce + " Adicionado no carrinho");
+            			mesada = mesada - valorDoce;
+			}
+        			System.out.println("Mesada:" + mesada);
+        			System.out.println("Joãozinho gastou toda a sua mesada em doces");
         
-            while (contador < 50) {
-    
-        System.out.println("Repetição nr: " + contador);
-        contador++;
-        }
+        			/*
+        			* Não se preocupe quanto a formatação de valores
+        			* Iremos explorar os recursos de formatação em breve !!
+        			*/
+   	}
+   	private static double valorAleatorio() {
+	return ThreadLocalRandom.current().nextDouble(2, 8);
+   	}
+    }
 
 ## Vetores
 
