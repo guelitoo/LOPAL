@@ -96,6 +96,7 @@ São estruturas utilizadas para tomar decisões com base em uma condição.
     }
 
 #Laços de Repetição
+
 São estruturas utilizadas para repetir um bloco de código vátrias vezes.
 
 - Contador (for): É utilizado quando se sabe a quantidade exata de vezes que bloco de código deve ser repetido.
