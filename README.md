@@ -38,7 +38,7 @@ São utilizados para realizar operações lógicas, como AND, OR e NOT.
 
 São estruturas utilizadas para tomar decisões com base em uma condição.
 
-- Condicionais Simples: São estruturas que executam um bloco de código se uma condição for verdadeira
+- Condicionais Simples: Quando ocorre uma validação de execução de fluxo, somente quando a condição for positiva, consideramos como uma estrutura Simples, exemplo:
 
 ![image](https://github.com/Miguel281207/LOPAL/assets/159180695/1124ccf6-8780-453f-b2b9-411b0e63f4dd)
 
@@ -60,9 +60,44 @@ Clipboard
 
 ![image](https://github.com/Miguel281207/LOPAL/assets/159180695/c69c4f90-cbad-4d01-9ffd-8a69fb7993ea)
  
-- Condicionais Compostas: São estruturasque executam diferentes blocos de código dependendo de diferentes condições.
-- Condicionais Encadeadas: São estruturas que executam diferentes blocos de código de variáveis condições encadeadas.
-## Laços de Repetição
+- Condicionais Compostas: Algumas vezes, o nosso programa deverá seguir mais de uma jornada de execução, condionado a uma regra de negócio, este cenário é demoninado Estrutura Condicional Composta. Vejamos o exemplo abaixo:
+
+![image](https://github.com/Miguel281207/LOPAL/assets/159180695/6c514235-5b6b-478e-9b23-48f8802a7b4b)
+
+    // ResultadoEscolar.java
+    public class ResultadoEscolar {
+        public static void main(String[] args) {
+
+        int nota = 6;
+       
+        if(nota >= 7)
+            System.out.println("Aprovado");
+
+        else
+            System.out.println("Reprovado");
+        }
+    }
+
+✅ Vale ressaltar aqui, que no Java, em uma condição (if/else) às vezes necessitamos adicionar um bloco de { }, se a lógica conter mais de uma linha.
+
+- Condicionais Encadeadas: Em um controle de fluxo condicional, nem sempre nos limitamos ao se (if) e senão (else), poderemos ter uma terceira, quarta e ou inúmeras condições.
+
+![image](https://github.com/Miguel281207/LOPAL/assets/159180695/f5df786e-996f-40ce-98aa-b1ee45471d80)
+
+    // ResultadoEscolar.java
+    public class ResultadoEscolar {
+         public static void main(String[] args) {
+         int nota = 6;
+
+	     if (nota >= 7)
+              System.out.println("Aprovado");
+         else if (nota >= 5 && nota < 7)
+		      System.out.println("Recuperação");
+	     else
+		      System.out.println("Reprovado");
+        }
+    }
+
 
 São estruturas utilizadas para repetir um bloco de código vátrias vezes.
 
