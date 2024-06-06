@@ -133,11 +133,11 @@ A estrutura de sintaxe, do controle de repetição while é exibida abaixo:
         			* Não se preocupe quanto a formatação de valores
         			* Iremos explorar os recursos de formatação em breve !!
         			*/
-   	}
-   	private static double valorAleatorio() {
-	return ThreadLocalRandom.current().nextDouble(2, 8);
-   	}
-    }
+   		}
+   		private static double valorAleatorio() {
+		 return ThreadLocalRandom.current().nextDouble(2, 8);
+   		}
+    	}
 
 ## Vetores
 
